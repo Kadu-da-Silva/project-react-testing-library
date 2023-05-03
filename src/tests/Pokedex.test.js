@@ -166,5 +166,7 @@ describe('Testa o componente Pokedex', () => {
 
     const buttonAll = screen.getByRole('button', { name: 'All' });
     expect(buttonAll).toBeDefined();
+
+    userEvent.click(buttonAll);
   });
 });
